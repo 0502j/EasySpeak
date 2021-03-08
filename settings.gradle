@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "EASYSPEAK_v2.1"

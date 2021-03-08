@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F5FA"
+    tools:context=".act_aulas2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="656dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgaula1" />
+
+    <CheckBox
+        android:id="@+id/chaula"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="484dp"
+        android:buttonTint="#05600F"
+        android:checked="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chaula5"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="620dp"
+        android:buttonTint="#05600F"
+        android:checked="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chaula6"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="240dp"
+        android:buttonTint="#05600F"
+        android:checked="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chaula7"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="360dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="356dp"
+        android:buttonTint="#05600F"
+        android:checked="false"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btaula"
+        android:layout_width="432dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="540dp"
+        android:background="#99C8DD"
+        android:text="@string/fffff"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btaula5"
+        android:layout_width="432dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="273dp"
+        android:background="#99C8DD"
+        android:text="@string/ssdsds"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btaula6"
+        android:layout_width="432dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="402dp"
+        android:background="#99C8DD"
+        android:text="@string/fdfdfdfdfd"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btaula7"
+        android:layout_width="432dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="151dp"
+        android:background="#99C8DD"
+        android:text="@string/hghghg"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

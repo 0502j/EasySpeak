@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F5FA"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtbemvindo"
+        android:layout_width="439dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="765dp"
+        android:background="#99C8DD"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/bem_vindo_clique_no_bot_o_de_interroga_o_para_come_ar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.315" />
+
+    <ImageView
+        android:id="@+id/personamain"
+        android:layout_width="499dp"
+        android:layout_height="786dp"
+        android:layout_marginStart="12dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/personap1" />
+
+    <ImageView
+        android:id="@+id/personamain2"
+        android:layout_width="499dp"
+        android:layout_height="786dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="@string/todo"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/pose1v2" />
+
+    <Button
+        android:id="@+id/btprogresso"
+        android:layout_width="130dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundbutton"
+        android:fadingEdge="horizontal|vertical"
+        android:text="@string/progresso"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <ImageView
+        android:id="@+id/imgbegegrosso"
+        android:layout_width="477dp"
+        android:layout_height="294dp"
+        android:layout_marginTop="596dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/barraazul" />
+
+    <Button
+        android:id="@+id/btajuda"
+        android:layout_width="119dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="640dp"
+        android:background="@drawable/help"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btvideo"
+        android:layout_width="59dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/baixados"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btpronun"
+        android:layout_width="59dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/message"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="56dp"
+        android:layout_height="76dp"
+
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="302dp"
+        android:src="@drawable/estrelagifdois"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btaulas"
+        android:layout_width="130dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="665dp"
+        android:layout_marginEnd="286dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundbutton"
+        android:fadingEdge="horizontal|vertical"
+        android:onClick="tapToAnimate"
+        android:text="@string/aulas"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+    <Button
+        android:id="@+id/btsobre"
+        android:layout_width="61dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/abouticon"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btaudio"
+        android:layout_width="57dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="277dp"
+        android:background="@drawable/ear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btlivro"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="352dp"
+        android:background="@drawable/book"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btpremio"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="354dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="578dp"
+        android:background="@drawable/premio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

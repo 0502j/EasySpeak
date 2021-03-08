@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F5FA"
+    tools:context=".act_livros">
+
+    <TextView
+        android:layout_width="430dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="151dp"
+        android:background="#99C8DD"
+        android:fontFamily="@font/aladin"
+        android:text="@string/livros_gratuitos"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="385dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="542dp"
+        android:text="@string/aqui_voc_pode_ler_livros_gratuitos_em_ingl_s_escolha_um_dos_livros_abaixo_e_boa_leitura"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/abedog"
+        android:layout_width="189dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="329dp"
+        android:clickable="true"
+        android:contentDescription="@string/hghgfhf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abedog" />
+
+    <ImageView
+        android:id="@+id/homeyuck"
+        android:layout_width="189dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginEnd="227dp"
+        android:layout_marginBottom="103dp"
+        android:clickable="true"
+        android:contentDescription="@string/fgfdgfdg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homeworkyuck" />
+
+    <ImageView
+        android:id="@+id/missingsmile"
+        android:layout_width="189dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="103dp"
+        android:clickable="true"
+        android:contentDescription="@string/fdgdgfdgd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/missingsmile" />
+
+    <ImageView
+        android:id="@+id/doingchores"
+        android:layout_width="189dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="329dp"
+        android:clickable="true"
+        android:contentDescription="@string/sasds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/doingmychores" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

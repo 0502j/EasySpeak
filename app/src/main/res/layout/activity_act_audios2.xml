@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #F3F5FA "
+    tools:context=".act_audios2">
+
+    <TextView
+        android:id="@+id/idtitulo"
+        android:layout_width="437dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="91dp"
+        android:background="#99C8DD"
+        android:fontFamily="@font/aladin"
+        android:text="@string/teste_sua_audi_o"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pergunta2"
+        android:layout_width="399dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="666dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/_2_o_que_a_personagem_diz_quando_a_tela_azul_aparece"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/audio2"
+        android:layout_width="408dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="217dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="449dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/op1"
+        android:layout_width="398dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="331dp"
+        android:background="#8D8C9C"
+        android:text="@string/i_cleaned_everything"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/op2"
+        android:layout_width="398dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="553dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="225dp"
+        android:background="#8D8C9C"
+        android:text="@string/i_matched_everyone"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/op3"
+        android:layout_width="398dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="118dp"
+        android:background="#8D8C9C"
+        android:text="@string/i_just_erased_everything"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/audiprox"
+        android:layout_width="104dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="764dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="41dp"
+        android:background="#8D8C9C"
+        android:text="@string/prox"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

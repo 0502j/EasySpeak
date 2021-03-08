@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jamile.easyspeak_v21">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".act_premios"></activity>
+        <activity android:name=".carregatela">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".telateste" />
+        <activity android:name=".act_livros" />
+        <activity android:name=".act_aulas2" />
+        <activity android:name=".act_pronuncia" />
+        <activity android:name=".act_audios2" />
+        <activity android:name=".act_audios1" />
+        <activity android:name=".act_aula4_exercicios" />
+        <activity android:name=".act_cont_aula4" />
+        <activity android:name=".act_aula3_exercicios" />
+        <activity android:name=".act_cont_aula3" />
+        <activity android:name=".act_aula2_exercicios" />
+        <activity android:name=".act_aula1_exercicios" />
+        <activity android:name=".act_cont_aula2" />
+        <activity android:name=".act_sobre" />
+        <activity android:name=".act_cont_aula1" />
+        <activity android:name=".act_videos3" />
+        <activity android:name=".act_videos2" />
+        <activity android:name=".act_videos" />
+        <activity android:name=".act_ajuda" />
+        <activity android:name=".act_progresso" />
+        <activity android:name=".act_aulas" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

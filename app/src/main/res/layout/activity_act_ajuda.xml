@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background=" #F3F5FA "
+    tools:context=".act_ajuda">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="401dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="55dp"
+        android:background="#FFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txttutorial"
+        android:layout_width="440dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="721dp"
+        android:background="#99C8DD"
+        android:text="@string/tutorial"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btpersonagem"
+        android:layout_width="576dp"
+        android:layout_height="571dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="335dp"
+        android:background="@drawable/personap1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <TextView
+        android:id="@+id/txtajuda"
+        android:layout_width="394dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/ol_estou_aqui_para_te_ajudar_clique_em_mim_para_come_ar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgseta"
+        android:layout_width="161dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="299dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/setadireita" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
