@@ -23,6 +23,9 @@ This project includes:
 - Progress screen
 - Free books
 
-*MUSIC VIDEOS USED IN THIS APP BY: DUA LIPA AND THE TEMPTATIONS. These music videos were used as an example only and will be replaced soon!* 
 
 ![EasySpeak_Trim_Trim](https://user-images.githubusercontent.com/71787801/113701953-3b1afe00-96af-11eb-8a41-3def42db602a.gif)
+
+
+
+*MUSIC VIDEOS USED IN THIS APP BY: DUA LIPA AND THE TEMPTATIONS. The music videos were used as an example only and will be replaced soon* 
